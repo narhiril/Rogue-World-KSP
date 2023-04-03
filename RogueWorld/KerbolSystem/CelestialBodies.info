@@ -1,0 +1,66 @@
+# This file provides information for other plugins
+# 
+# Syntax:
+#
+#  Celestial-Body-Name
+#  {
+#     [gas giant = true] # optional, default: false
+#     Plugin-Name
+#     {
+#        key = value
+#     }
+#  }
+#
+# Example:
+#
+#  NewKerbin
+#  {
+#     gas giant = false
+#     FinalFrontier
+#     {
+#       ribbon group  = GenericE02
+#       base prestige = 8100
+#     }
+#  }
+#
+
+Shedu
+{
+   gas giant = true
+   FinalFrontier
+   {
+     ribbon path  = RogueWorld/KerbolSystem/Ribbons
+     ribbon group  = Shedu
+     base prestige = 8260
+   }
+}
+Shabriri
+{
+   gas giant = false
+   FinalFrontier
+   {
+     ribbon path  = RogueWorld/KerbolSystem/Ribbons
+     ribbon group  = Shabriri
+     base prestige = 8500
+   }
+}
+Lilitu
+{
+   gas giant = false
+   FinalFrontier
+   {
+     ribbon path  = RogueWorld/KerbolSystem/Ribbons
+     ribbon group  = Lilitu
+     base prestige = 8500
+   }
+}
+Molekh
+{
+   gas giant = false
+   FinalFrontier
+   {
+     ribbon path  = RogueWorld/KerbolSystem/Ribbons
+     ribbon group  = Molekh
+     base prestige = 8750
+   }
+}
